@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#link" target="_self" method="post" autocomplete="on"> 
+        <fieldset>
+            <legend>Personal information</legend>
+       <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="name" value="Enter your first name"><br>
+        <label for="lname">last Name:</label><br>
+        <input type="text" id="lname" name="name" value="Enter your last name"><br><br>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend>Your city</legend>
+        <label for="fname">Choose your city</label><br>
+        <input type="radio" name="radio" value="patna" checked="checked">patna
+        <input type="radio" name="radio" value="Mumabi">Mumbai
+       <input type="radio" name="radio" value="Deharadun">deharadun
+       <input type="radio" name="radio" value="Muradabad">Muradabad
+       <br><br>
+    </fieldset>
+
+       <label for="food">Choose your fav Snacks</label>
+       <select id="food" size="2">
+        <option value="VadaPav">VadaPav</option>
+        <option value="Momos">Momos</option>
+        <option value="Noodles">Noodles</option>
+        <option value="EggRoll">EggRoll</option>
+       </select><br><br>
+
+
+       <label id="review">enter your review</label><br><br>
+       <textarea id="textarea" rows="10" cols="10"></textarea><br><br>
+       <button type="button">submit</button><br>
+
+    </form>
+
+
+</body>
+</html>
